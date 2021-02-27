@@ -1,0 +1,70 @@
+<!-- 
+Name : Satinder Singh
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Game</title>
+</head>
+
+<body>
+    <!--
+        Div where we write name and age
+        Also, Play and Help button
+    -->
+    <div class=form id="form">
+        <form>
+            <input type="text" name=name id=name placeholder="Enter Your Name">
+            <input type="text" name=age id=age placeholder="Enter Your Age">
+            <input type="button" id="btn1" class="button mobile_button" value="Play">
+            <input type="button" id="btn2" class="button mobile_help" value="Help">
+        </form>
+    </div>
+
+    <!--
+        A div which conatian a sub div which contain images of objects (rock,paper and sessiors)
+    -->
+    <div class="container" id="div1" style="display:none">
+        <h3>Game : Rock , Paper & Sessior</h3>
+        <div class="flecbox" id="flexboxID">
+            <img src="stone.jpg" height="150px" width="150px" id="rock">
+            <img src="paper.jpg" height="150px" width="150px" id="paper">
+            <img src="s.jpg" height="150px" width="150px" id="sessior">
+        </div>
+    </div>
+
+    <!--
+        A div which conatian a sub div which contain play again button
+    -->
+    <div class="container2" id="div3" style="display:none">
+        <div class=form id="form">
+            <form>
+                <input type="submit" id="btn3" class="button" value="Play Agian">
+            </form>
+        </div>
+    </div>
+
+    <!--
+        A div which conatian a sub div which contain help button when we want to some help
+    -->
+    <div class="container1" id="div2" style="display:none">
+        <div class=form id="form">
+            <form>
+                <input type="button" id="btn4" class="button" value="Back">
+            </form>
+        </div>
+        <h3>Setup</h3>
+        <p>Their are Three images will shown after filling the name and age. The imagaes will be for rock, paper and sessior. The player is playing against computer. User have to pick thier own choice by clicking on particluar image. Then, it automatically
+            shows the result.</p>
+        <h3>Rules: </h3>
+        <p>it has only two possible outcomes: a draw, or a win for one player and a loss for the other. A player who decides to play rock will beat another player who has chosen scissors ("rock crushes scissors" or sometimes "blunts scissors"[4]), but will
+            lose to one who has played paper ("paper covers rock"); a play of paper will lose to a play of scissors ("scissors cuts paper"). If both players choose the same shape, the game is tied and is usually immediately replayed to break the tie.</p>
+    </div>
+</body>
+
+</html>

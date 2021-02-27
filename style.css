@@ -1,0 +1,74 @@
+/*
+Name : Satinder Singh
+*/
+
+body {
+    background-color: #594C4A;
+}
+
+.form {
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.button {
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 38px;
+}
+
+.container {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+.flecbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.container img {
+    margin: 15px;
+}
+
+.container img:hover {
+    box-shadow: 0px 10px 54px blue;
+}
+
+h3 {
+    color: #6b011f;
+}
+
+p {
+    color: a7c5eb;
+}
+
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+    .mobile_button {
+        position: relative;
+        top: 60px;
+        left: -250px;
+    }
+    .mobile_help {
+        position: relative;
+        top: 22px;
+    }
+}
